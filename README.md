@@ -6,3 +6,16 @@ Setup
 2. create a matching JS file 
 3. run `tsc --noImplicitAny --strictNullChecks script.ts`
 4. refresh the page in your browser to see the results
+
+Compiler flags:
+
+```
+// --noImplicitAny: this won't allow
+function func(s) {
+    console.log(s);
+}
+```
+
+```
+// --strictNullChecks: this won't allow 
+```
